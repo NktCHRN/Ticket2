@@ -3,15 +3,15 @@
 #include <cmath>
 #include <string>
 
-std::string* init(int*);							//ввод строк
-std::string del_unnecessary(std::string);			//удаление ненужных символов в строках (всех, кроме 0 и 1)
-std::string* get_dec_array(std::string*, int);		//получение массива десятичных чисел
-int bin_to_dec(std::string);						//перевод из двоичной в десятичную
-void print_array(std::string*, int);				//вывод массива
-int** create_matrix(int);							//создание матрицы
-void print_matrix(int**, int);						//вывод матрицы
-void fill_matrix(int**, int, std::string*);			//заполнение матрицы
-void sort_matrix(int**, int);						//сортировка матрицы
-int find_min(int*, int);							//найти минимальное число в строке (по модулю)
-void swap_rows(int*, int*, int);					//поменять местами рядки
-void del_matrix(int**, int);						//удаление двумерного динамического массива
+std::string* init(int*);							//РІРІРѕРґ СЃС‚СЂРѕРє
+std::string del_unnecessary(std::string);			//СѓРґР°Р»РµРЅРёРµ РЅРµРЅСѓР¶РЅС‹С… СЃРёРјРІРѕР»РѕРІ РІ СЃС‚СЂРѕРєР°С… (РІСЃРµС…, РєСЂРѕРјРµ 0 Рё 1)
+std::string* get_dec_array(std::string*, int);		//РїРѕР»СѓС‡РµРЅРёРµ РјР°СЃСЃРёРІР° РґРµСЃСЏС‚РёС‡РЅС‹С… С‡РёСЃРµР»
+int bin_to_dec(std::string);						//РїРµСЂРµРІРѕРґ РёР· РґРІРѕРёС‡РЅРѕР№ РІ РґРµСЃСЏС‚РёС‡РЅСѓСЋ
+void print_array(std::string*, int);				//РІС‹РІРѕРґ РјР°СЃСЃРёРІР°
+int** create_matrix(int);							//СЃРѕР·РґР°РЅРёРµ РјР°С‚СЂРёС†С‹
+void print_matrix(int**, int);						//РІС‹РІРѕРґ РјР°С‚СЂРёС†С‹
+void fill_matrix(int**, int, std::string*);			//Р·Р°РїРѕР»РЅРµРЅРёРµ РјР°С‚СЂРёС†С‹
+void sort_matrix(int**, int);						//СЃРѕСЂС‚РёСЂРѕРІРєР° РјР°С‚СЂРёС†С‹
+int find_min(int*, int);							//РЅР°Р№С‚Рё РјРёРЅРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ РІ СЃС‚СЂРѕРєРµ (РїРѕ РјРѕРґСѓР»СЋ)
+void swap_rows(int*, int*, int);					//РїРѕРјРµРЅСЏС‚СЊ РјРµСЃС‚Р°РјРё СЂСЏРґРєРё
+void del_matrix(int**, int);						//СѓРґР°Р»РµРЅРёРµ РґРІСѓРјРµСЂРЅРѕРіРѕ РґРёРЅР°РјРёС‡РµСЃРєРѕРіРѕ РјР°СЃСЃРёРІР°

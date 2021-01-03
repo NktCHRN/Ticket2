@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <string>
 #include "Ticket2_Lib.h"
 
@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
+    setlocale(LC_ALL, "ru-RU.UTF-8");
     cout << "Билет №2" << endl;
     int quantity;                                                                   //количество строк
     string* str_array = init(&quantity);                                            //вводим строки с числами в двоичной системе счисления
@@ -23,4 +23,5 @@ int main()
     cout << "Отсортированная матрица A: " << endl;
     print_matrix(A, quantity);
     del_matrix(A, quantity);                                                        //удаляем больше ненужный двумерный динамический массив
+    system("pause");
 }
