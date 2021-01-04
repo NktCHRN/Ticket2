@@ -73,11 +73,8 @@ int bin_to_dec(std::string s) {
 }
 
 void print_array(std::string* s, int size) {							//вывод массива строк
-	for (int i = 0; i < size; i++) {
-		for (int j = 0; j < s[i].size(); j++)
-			std::cout << s[i][j];
-		std::cout << std::endl;
-	}
+	for (int i = 0; i < size; i++)
+		std::cout << s[i] << std::endl;
 }
 
 int** create_matrix(int size) {
